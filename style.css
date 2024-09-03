@@ -3,14 +3,13 @@
   padding: 0;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: url(image/img.jpg) no-repeat center center/cover;
   background-blend-mode: darken;
-  width: 100vw;
+  width: 1200px;
+  margin: 0 auto;
   height: 100vh;
   overflow: scroll;
+  background-color: black;
 }
 .box {
   display: flex;
@@ -129,4 +128,30 @@ button img {
 }
 .social_text {
   text-align: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: rgb(209, 203, 203);
+}
+
+ ul li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color:rgb(9, 10, 10);
+  transition: all 0.8s ease;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+.instagram {
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 30px;
 }
